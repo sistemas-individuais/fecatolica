@@ -4,7 +4,6 @@
  */
 package com.mycompany.santo.terco.DTO;
 
-
 import lombok.Getter;
 import lombok.Setter;
 import java.util.List;
@@ -12,8 +11,9 @@ import java.util.List;
 @Getter
 @Setter
 public class Oracoes {
+
     private String coleta;
     private String oferendas;
     private String comunhao;
-    private List<String> extras;
+    private List<Extra> extras;
 }
